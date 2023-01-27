@@ -3,10 +3,22 @@
 Creating a Bash script that uses SQL to enter information about your Computer Science Students Database into PostgreSQL.
 
 The students database includes four tables
-* students table
-* majors table
-* courses table
-* majors_courses table
+* students table - columns include:
+  * student_id - primary key
+  * first_name
+  * last_name
+  * major_id - foreign key
+  * gpa
+* majors table - columns include:
+  * major_id - primary key
+  * major
+* courses table - columns include:
+  * course_id - primary key
+  * course
+* majors_courses table - columns include:
+  * major_id 
+  * course_id
+  * composite key - major_id and course_id
 
 ### ====================== Files ========================
 * students.csv
