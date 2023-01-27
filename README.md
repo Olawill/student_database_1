@@ -2,6 +2,12 @@
 
 Creating a Bash script that uses SQL to enter information about your Computer Science Students Database into PostgreSQL.
 
+The students database includes four tables
+* students table
+* majors table
+* courses table
+* majors_courses table
+
 ### ====================== Files ========================
 * students.csv
 * courses.csv
