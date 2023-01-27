@@ -1,8 +1,8 @@
-# Buidling Student Database - Part 1
+## Buidling Student Database - Part 1
 
 Creating a Bash script that uses SQL to enter information about your Computer Science Students Database into PostgreSQL.
 
-# +++++++++++++++++++ Files +++++++++++++++++
+### +++++++++++++++++++ Files +++++++++++++++++
 * students.csv
 * courses.csv
 * students.sql
