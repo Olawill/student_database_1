@@ -10,4 +10,4 @@ Creating a Bash script that uses SQL to enter information about your Computer Sc
 
 ### Created a dump of all the commands for the inserting the data into the database
 The command for the dump as a "students.sql"::
-  pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
+  ** pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
