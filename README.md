@@ -27,5 +27,5 @@ The students database includes four tables
 * insert_data.sh
 
 ### Created a dump of all the commands for the inserting the data into the database
-The command for the dump as a _"students.sql"_::
+The command for the dump as a _"__students.sql__"_::
   * pg_dump --clean --create --inserts --username=freecodecamp students > students.sql
